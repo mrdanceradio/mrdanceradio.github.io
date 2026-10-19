@@ -1,1 +1,3 @@
-
+RewriteEngine On
+RewriteCond %{REQUEST_URI} ^/live_low$
+RewriteRule ^(.*)$ https://myradio24.org/9083_low [R=302,L]
